@@ -5,14 +5,14 @@ using namespace cv;
 using namespace std;
 
 Image::Image() {
-  //-- nothing
+    //-- nothing
 }
 
 Image::Image(int webCamera) {
-  cameraIndex = webCamera;
-  capture = VideoCapture(webCamera);
+    cameraIndex = webCamera;
+    capture = VideoCapture(webCamera);
 
-  if(capture.isOpened() == false) {
-    cout << "Error opening camera!" << endl;
-  }
+    if(capture.isOpened() == false) {
+        cout << "Error opening camera!" << endl;
+    }
 }
