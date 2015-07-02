@@ -2,10 +2,7 @@ Wave : A Perceptive User Interface
 ===============================================
 ![alt text](res/wave.png "Wave")
 --------------------------
-Wave is a perceptive user interface capable of detecting human hands, and
-interpreting hand gestures as control instructions in real-time.
-
-NOTE: This is an ongoing project.
+Wave is a perceptive user interface based on real-time hand detection. The project emphasizes on building a framework that makes real-time hand detection easy, effective and intuitive. Wave can identify each finger separately and track finger movements as well. The project also includes an application based on this framework that lets users draw on screen using finger gestures and movements.
 
 Images
 --------------------------
