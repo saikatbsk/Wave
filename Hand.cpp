@@ -317,13 +317,11 @@ void Hand::eleminateDefects(Image *im) {
                         boundRect.y +
                         boundRect.height -
                         boundRect.height/4)) {
-                //--
             }
             else if(ptStart.y > (
                         boundRect.y +
                         boundRect.height -
                         boundRect.height/4)) {
-                //--
             }
             else {
                 newDefects.push_back(v);
