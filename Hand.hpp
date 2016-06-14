@@ -42,7 +42,7 @@ class Hand {
         int fontFace;
 
         float distanceP2P(Point a, Point b);
-        void remRedundantEnd(Vector<Vec4i> newDefects, Image *im);
+        void remRedundantEnd(vector<Vec4i> newDefects, Image *im);
         void analyzeContours();
         int checkForOneFinger(Image *im);
         string int2String(int num);

@@ -258,7 +258,7 @@ float Hand::getAngle(Point s, Point f, Point e) {
     return angle;
 }
 
-void Hand::remRedundantEnd(Vector<Vec4i> newDefects, Image *im) {
+void Hand::remRedundantEnd(vector<Vec4i> newDefects, Image *im) {
     Vec4i temp;
     float tolerance = bRect_w/5;
     int startIDx, endIDx;
