@@ -2,7 +2,7 @@ Wave : A Perceptive User Interface
 ===============================================
 ![alt text](res/wave.png "Wave")
 --------------------------
-A Perceptive User Interface based on Real Time Hand Detection and Tracking. The only requirement is an ordinary webcam. Developed as a framework. Useful for applications such as gesture-based point and click interfaces. A demo paint application allows users to paint using hand and finger gestures. Developed using C++ and OpenCV.
+A perceptive user interface based on real-time hand detection and tracking. Requires a webcam. Useful for applications such as gesture-based point and click interfaces.
 
 Images
 --------------------------
